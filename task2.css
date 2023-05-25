@@ -1,0 +1,67 @@
+ body{
+    background-color: rgb(122, 214, 214);
+    }
+.h1{
+        text-align: center;
+        font-style: oblique;
+        color:blue;
+        font-size: 50px;
+    }
+.grid-container{
+    height: 300px;
+    width:50%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap:10px;
+}
+.cont{
+    background-color: aquamarine;
+    height:300px;
+    width:85%;
+    margin-left: 120px;
+    border-radius: 20px;
+
+}
+.cont1{
+    background-color: blue;
+    height:350px;
+    width:300px;
+    margin-left: 120px;
+    margin-top: 10px;
+    border-radius: 30px;
+    
+}
+.cont2{
+    background-color: rgb(154, 236, 247);
+    width:350%;
+    height:100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#swami{
+    text-align: center;
+    font-size: 30px;
+}
+h3{
+    text-align: center;
+}
+
+.abc{
+    font-size: 30px;
+    color:blue;
+    margin-left: 15px;
+}
+p{
+    font-size: 20px;
+    margin-left: 10px;
+}
+#vivek{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(23, 37, 233);
+}
+.navb{
+    font-size: 25px;
+    margin-left: 60px;
+    color:blue;
+}

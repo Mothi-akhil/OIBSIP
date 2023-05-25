@@ -1,0 +1,90 @@
+<html>
+<head>
+<link rel="stylesheet" href="task1.css">
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <div class="cal">
+        <div class="res">
+            <input type="text" name='text1' value="" id="txt">
+        </div>
+        <div class="gridc">
+            <div class="gridi">
+                <input type="button" value="(" class="btn" id="1" onclick="buildExpression(this.value)" /> 
+            </div>
+            <div class="gridi">
+                <input type="button" value=")" class="btn" onclick="buildExpression(this.value)" id="2">
+            </div>
+            <div class="gridi">
+                <input type="button" value ='ans' class="btn" id="3" onclick="calculate(this.value)">
+            </div>
+            <div class="gridi">
+                <input type="button" value="del" class="btn"  id="4" onclick="del(this.value)">
+            </div>
+            <div class="gridi">
+                <input type="button" value='clear' class="btn" id="5" onclick="clearrr(this.value)">
+            </div>
+            <div class="gridi">
+                <input type="button"  value='7' class="btn"  id="6" onclick="buildExpression(this.value)">
+            </div>
+            <div class="gridi">
+                <input type="button" value='8' class="btn" id="7" onclick="buildExpression(this.value)">
+            </div>
+            <div class="gridi">
+                <input type="button" value='9' class="btn"  id="8" onclick="buildExpression(this.value)">
+            </div>
+            <div class="gridi">
+                <input type="button" value="%" class="btn" id="9" onclick="buildExpression(this.value)">
+            </div>
+            <div class="gridi">
+                <input type="button" value="sqrt" class="btn"  id="10" onclick="sqroot(this.value)">
+            </div>
+            <div class="gridi">
+                <input type="button" value="4" class="btn"  id="11" onclick="buildExpression(this.value)">
+            </div>
+            <div class="gridi">
+                <input type="button" value="5" class="btn" id="12" onclick="buildExpression(this.value)">
+            </div>
+            <div class="gridi">
+                <input type="button" value="6" class="btn" id="13" onclick="buildExpression(this.value)">
+            </div>
+            <div class="gridi">
+                <input type="button" value="*" class="btn" id="14" onclick="buildExpression(this.value)">
+            </div>
+            <div class="gridi">
+                <input type="button" value="/" class="btn" id="15" onclick="buildExpression(this.value)">
+            </div>
+            <div class="gridi">
+                <input type="button"  value='1' class="btn"  id="16" onclick="buildExpression(this.value)">
+            </div>
+            <div class="gridi">
+                <input type="button" value="2" class="btn" id="17" onclick="buildExpression(this.value)">
+            </div>
+            <div class="gridi">
+                <input type="button" value="3" class="btn" id="18" onclick="buildExpression(this.value)">
+            </div>
+            <div class="gridi">
+                <input type="button"value='+' class="btn" id="19" onclick="buildExpression(this.value)">
+            </div>
+            <div class="gridi">
+                <input type="button" value="-" class="btn" id="20" onclick="buildExpression(this.value)">
+            </div>
+            <div class="gridi">
+                <input type="button" value="." class="btn" id="21" onclick="buildExpression(this.value)">
+            </div>
+            <div class="gridi">
+                <input type="button" value='0'class="btn" id="22" onclick="buildExpression(this.value)">
+            </div>
+            <div class="gridi">
+                <input type="button" value="00" class="btn" id="23" onclick="buildExpression(this.value)">
+            </div>
+            <div class="gridi">
+                <input type="button" value="=" class="btn"id="ent" onclick="calculate(this.value)">
+            </div>
+
+        </div>
+        
+    </div>
+    <script src="task1.js"></script>
+</body>
+</html>
